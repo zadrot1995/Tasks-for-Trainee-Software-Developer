@@ -1,0 +1,20 @@
+﻿<Window x:Class="Task1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="383" Width="497">
+    <Grid>
+        <TextBox x:Name="EncodeInput" HorizontalAlignment="Left" Margin="100,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="302" Height="22" />
+        <Label x:Name="EncodeLable" Content="" HorizontalAlignment="Left" Margin="100,62,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="DecodeInput" HorizontalAlignment="Left" Margin="100,215,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="302" Height="17" />
+        <Label x:Name="DecodeLable" Content="" HorizontalAlignment="Left" Margin="100,237,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="RailsInput" HorizontalAlignment="Center" Margin="0,104,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="96"/>
+        <Label Content="Rails" HorizontalAlignment="Center" Margin="0,70,0,0" VerticalAlignment="Top"/>
+        <Button Content="Decode" HorizontalAlignment="Center" Margin="0,273,0,0" VerticalAlignment="Top" Height="30" Width="72" Click="Button_Click_1"/>
+        <Button Content="Encode" HorizontalAlignment="Center" Margin="0,127,0,0" VerticalAlignment="Top" Height="30" Width="72" Click="Button_Click"/>
+
+    </Grid>
+</Window>

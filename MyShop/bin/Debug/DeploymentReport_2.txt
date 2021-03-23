@@ -1,0 +1,36 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[Products]
+       [dbo].[Suppliers]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The type for column ProductName in table [dbo].[Products] is currently  NVARCHAR (1) NOT NULL but is being changed to 
+         TEXT NOT NULL. Data loss could occur.
+       The type for column City in table [dbo].[Suppliers] is currently  NVARCHAR (1) NOT NULL but is being changed to  TEXT
+         NOT NULL. Data loss could occur.
+       The type for column Country in table [dbo].[Suppliers] is currently  NVARCHAR (1) NOT NULL but is being changed to  TEXT
+         NOT NULL. Data loss could occur.
+       The type for column SupplierName in table [dbo].[Suppliers] is currently  NVARCHAR (1) NOT NULL but is being changed to 
+         TEXT NOT NULL. Data loss could occur.
+
+** User actions
+     Table rebuild
+       [dbo].[Products] (Table)
+       [dbo].[Suppliers] (Table)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_SupplierID] (Foreign Key)
+       [dbo].[FK_CategoryID] (Foreign Key)
+     Create
+       [dbo].[FK_SupplierID] (Foreign Key)
+       [dbo].[FK_CategoryID] (Foreign Key)
+
+The type for column ProductName in table [dbo].[Products] is currently  NVARCHAR (1) NOT NULL but is being changed to  TEXT NOT NULL. Data loss could occur.
+The type for column City in table [dbo].[Suppliers] is currently  NVARCHAR (1) NOT NULL but is being changed to  TEXT NOT NULL. Data loss could occur.
+The type for column Country in table [dbo].[Suppliers] is currently  NVARCHAR (1) NOT NULL but is being changed to  TEXT NOT NULL. Data loss could occur.
+The type for column SupplierName in table [dbo].[Suppliers] is currently  NVARCHAR (1) NOT NULL but is being changed to  TEXT NOT NULL. Data loss could occur.
+

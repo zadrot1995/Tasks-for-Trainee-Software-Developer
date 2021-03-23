@@ -1,0 +1,21 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[Products]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Table rebuild
+       [dbo].[Products] (Table)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_SupplierID] (Foreign Key)
+       [dbo].[FK_CategoryID] (Foreign Key)
+     Create
+       [dbo].[FK_SupplierID] (Foreign Key)
+       [dbo].[FK_CategoryID] (Foreign Key)

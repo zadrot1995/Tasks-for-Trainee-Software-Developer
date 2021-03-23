@@ -1,0 +1,6 @@
+C:\Users\zadro\source\repos\TasksForTraineeSoftwareDeveloper\MyShop\bin\Debug\MyShop.dacpac
+C:\Users\zadro\source\repos\TasksForTraineeSoftwareDeveloper\MyShop\obj\Debug\MyShop.dll
+C:\Users\zadro\source\repos\TasksForTraineeSoftwareDeveloper\MyShop\obj\Debug\MyShop.pdb
+C:\Users\zadro\source\repos\TasksForTraineeSoftwareDeveloper\MyShop\bin\Debug\MyShop.dll
+C:\Users\zadro\source\repos\TasksForTraineeSoftwareDeveloper\MyShop\bin\Debug\MyShop.pdb
+C:\Users\zadro\source\repos\TasksForTraineeSoftwareDeveloper\MyShop\obj\Debug\MyShop.sqlprojAssemblyReference.cache
